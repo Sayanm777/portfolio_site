@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sayan Majumdar | Portfolio</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="icon" href="Portfolio1.png" type="image/x-icon">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    </head>
+    <body>
+        <!--header/nav-->
+        <header>
+            <div class="container">
+                <nav>
+                    <div class="logo">
+                        <a href="#"><span>Sayan</span>Majumdar</a>
+                    </div>
+                    <ul class="nav-links">
+                       <li><a href="#home">Home</a></li>
+                       <li><a href="#about">About</a></li>
+                       <li><a href="#skills">Skills</a></li>
+                       <li><a href="#projects">Projects</a></li>
+                       <li><a href="#contact">Contact</a></li>
+                    </ul>
+                    <div class="hamburger">
+                        <div class="line"></div>
+                        <div class="line"></div>
+                        <div class="line"></div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <br>
+        <!--Hero Section-->
+        <section id="home" class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <br><br>
+                    <h1>Hi, I'm <span>Sayan Majumdar</span></h1>
+                    <h2>I am currently pursuing B.Tech in ECE dept. from Jalpaiguri Government Engineering College.</h2>
+                    <p> Alongside my academic studies, I have developed a strong interest and skill set in web development, working on various personal and collaborative projects. </p>
+                    <div class="cta-buttons">
+                        <a href="#projects" class="btn">View My Work</a>
+                        <a href="#contact" class="btn secondary">Contact Me</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="Myphoto.jpg" alt="Sayan Majumdar">
+                </div>
+            </div>
+        </section>
+        <hr>
+        <!--About Section-->
+        <section id="about" class="about">
+            <div class="container">
+                <h2 class="section-title">About <span>Me</span></h2>
+                <div class="about-content">
+                    <div class="about-image">
+                        <img src="PhotoMe2.jpg" alt="About Me">
+                    </div>
+                    <div class="about-text">
+                        <h3>Who I Am?</h3>
+                        <p>I'm Sayan Majumdar, a Web Developer with a passion for crafting intuitive user interface. With a backgroung in Science.</p>
+                        <p>My journey into Web Developement began after entering in B.Tech. </p>
+                        <div class="about-details">
+                            <div class="detail-item">
+                                <p><span>Name:</span> Sayan Majumdar</p>
+                            </div>
+                            <div class="detail-item">
+                                <p><span>Email:</span> maXXXdaXsaXXn6X2@gmail.com</p>
+                            </div>
+                            <div class="detail-item">
+                                <p><span>From:</span> Burdwan, West Bengal, India</p>
+                            </div>
+                            <div class="detail-item">
+                                <p><span>Education:</span> Burdwan C.M.S. High School</p>
+                            </div>
+                        </div>
+                        <a href="#" class="btn">Download CV</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <!--Skills Section-->
+        <section id="skills" class="skills">
+           <div class="container">
+            <h2 class="section-title">My <span>Skills</span></h2>
+            <div class="skills-content">
+                <div class="skills-description">
+                    <h3>My Technical Skills</h3>
+                   <li><p>Web Developer</p></li>
+                   <li><p>Content Writer</p></li>
+                   <li><p>Expert In PowerBI</p></li>
+                   <li><p>Expert in ARDUINO</p></li>
+                   <li><p>Time Management</p></li>
+                </div>
+                <div class="skills-progress">
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>HTML/CSS</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress html-css"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>JavaScript</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress javascript"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>React</span>
+                            <span>75%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress react"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>UI/UX Design</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress design"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+           </div>
+        </section>
+
+        <hr>
+        <!--Projects Section-->
+        <section id="projects" class="projects">
+             <div class="container">
+                <h2 class="section-title">My <span>Projects</span></h2>
+                <div class="projects-filters">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn " data-filter="web">Web</button>
+                    <button class="filter-btn " data-filter="app">App</button>
+                    <button class="filter-btn " data-filter="design">Design</button>
+                </div>
+                <br>
+                <div class="projects-grid">
+                    <div class="project-item" data-category="web">
+                        <img src="WebDev.jpg" alt="Project 1">
+                        <div class="project-overlay">
+                            <h3>Project Title 1</h3>
+                            <p>Web Developement</p>
+                            <a href="indexTaco.html" class="project-link"><i class="fas fa-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-item" data-category="app">
+                        <img src="AppDev.jpg" alt="Project 2">
+                        <div class="project-overlay">
+                            <h3>Project Title 2</h3>
+                            <p>Mobile App</p>
+                            <a href="Indexcal (2).html" class="project-link"><i class="fas fa-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-item" data-category="design">
+                        <img src="UI.UXdesign.jpg" alt="Project 3">
+                        <div class="project-overlay">
+                            <h3>Project Title 3</h3>
+                            <p>UI/UX Design</p>
+                            <a href="#" class="project-link"><i class="fas fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+             </div>
+        </section>
+
+        <hr>
+         <!--Contact Section-->
+         <section id="contact" class="contact">
+            <div class="container">
+                <h2 class="section-title">Contact <span>Me</span></h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h3>Get In Touch</h3>
+                        <p>Feel free to reach out for collaborations or just a friendly hello. I'll try my best to respond to you!</p>
+                        <div class="info-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <Span>Email:-</Span>
+                                <p>maXXXdaXsaXXn6X2@gmail.com</p>
+                            </div>
+                        </div>
+                        
+                        <div class="info-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <Span>Phone:-</Span>
+                                <p>+91 70XXXX9X54</p>
+                            </div>
+                        </div>
+                        
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <Span>Location:-</Span>
+                                <p>Burdwam, WB, India</p>
+                            </div>
+                        </div>
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-github"></i></a>
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <form class="contact-form" action="https://formsubmit.co/majumdarsayan442@gmail.com" method="POST">
+                        <div class="form-group">
+                            <label for="name">Name:</label><input type="text" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email:</label><input type="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Mobile No:</label><input type="tel" placeholder="Mobile No" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message:</label><textarea placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Send Message</button>
+                        <button type="reset" class="btn">Reset</button>
+
+                        <input type="hidden" name="_next" value="http://127.0.0.1:5500/index4.html">
+                        <input type="hidden" name="_subject" value="New Portfolio Message!">
+                    </form>
+                    
+                </div>
+            </div>
+         </section> 
+         <footer>
+            <div class="container">
+                <p>&lt;&lt; &copy; <span id="year"></span> Sayan Majumdar. All rights reserved. &gt;&gt;</p>
+            </div>
+         </footer>
+
+         <script src="script.js"></script>
+    </body>
+</html>
